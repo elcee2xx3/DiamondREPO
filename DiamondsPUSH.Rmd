@@ -1,0 +1,17 @@
+---
+title: "Diamonds PUSH"
+author: "Leigh Cummings"
+date: "2024-02-20"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+library(tidyverse)
+
+diamonds %>%
+  select(price, x, y, z) %>%
+  filter(price > 17000)
+```
+
