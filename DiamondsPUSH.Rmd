@@ -9,10 +9,9 @@ output:
 
 ```{r}
 library(tidyverse)
-library(purr)
 
 diamonds %>%
-  select(price, x, y, z) %>%
-  filter(price > 17000)
+  select(x, y, z) %>%
+  print(n=30)
 ```
 
