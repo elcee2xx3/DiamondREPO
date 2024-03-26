@@ -1,7 +1,8 @@
 library(tidyverse)
 library(dplyr)
 diamonds
-
- diamonds %>%
+#forking my way downtown
+ 
+diamonds %>%
   select(x, y, z) %>%
-  print(n=30)
+  print(n=15)
